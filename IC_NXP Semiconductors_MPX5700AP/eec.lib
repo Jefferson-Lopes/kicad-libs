@@ -1,0 +1,51 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# NXP Semiconductors MPX5700AP
+#
+DEF MPX5700AP U 0 40 Y Y 1 L N
+F0 "U" 0 200 50 H V L CNN 
+F1 "MPX5700AP" 0 300 50 H V L CNN 
+F2 "NXP_Semiconductors-SOT1852-1-03_2016-J-*" 0 400 50 H I L CNN 
+F3 "https://www.nxp.com/docs/en/data-sheet/MPX5700.pdf" 0 500 50 H I L CNN 
+F4 "2.5%" 0 600 50 H I L CNN "accuracy"
+F5 "+125°C" 0 700 50 H I L CNN "ambient temperature range high"
+F6 "-40°C" 0 800 50 H I L CNN "ambient temperature range low"
+F7 "No" 0 900 50 H I L CNN "automotive"
+F8 "IC" 0 1000 50 H I L CNN "category"
+F9 "Sensors" 0 1100 50 H I L CNN "device class L1"
+F10 "Pressure Sensors" 0 1200 50 H I L CNN "device class L2"
+F11 "unset" 0 1300 50 H I L CNN "device class L3"
+F12 "IC PRESSURE SENSOR ABS 6-SIP" 0 1400 50 H I L CNN "digikey description"
+F13 "MPX5700AP-ND" 0 1500 50 H I L CNN "digikey part number"
+F14 "https://www.nxp.com/docs/en/package-information/98ASB42796B.pdf" 0 1600 50 H I L CNN "footprint url"
+F15 "33.09mm" 0 1700 50 H I L CNN "height"
+F16 "Yes" 0 1800 50 H I L CNN "lead free"
+F17 "c3502a3ff08edaf0" 0 1900 50 H I L CNN "library id"
+F18 "NXP Semiconductors" 0 2000 50 H I L CNN "manufacturer"
+F19 "102PSI" 0 2100 50 H I L CNN "max pressure"
+F20 "5.25V" 0 2200 50 H I L CNN "max supply voltage"
+F21 "4.75V" 0 2300 50 H I L CNN "min supply voltage"
+F22 "841-MPX5700AP" 0 2400 50 H I L CNN "mouser part number"
+F23 "7mA" 0 2500 50 H I L CNN "operating supply current"
+F24 "4.7V" 0 2600 50 H I L CNN "output voltage"
+F25 "SENSOR6F" 0 2700 50 H I L CNN "package"
+F26 "Barbed" 0 2800 50 H I L CNN "port style"
+F27 "1ms" 0 2900 50 H I L CNN "response time"
+F28 "Yes" 0 3000 50 H I L CNN "rohs"
+F29 "Analog Voltage" 0 3100 50 H I L CNN "sensor output"
+F30 "2.47mm" 0 3200 50 H I L CNN "standoff height"
+F31 "+125°C" 0 3300 50 H I L CNN "temperature range high"
+F32 "-40°C" 0 3400 50 H I L CNN "temperature range low"
+DRAW
+X VCC 3 0 0 100 R 40 40 1 1 W 
+X GROUND 2 1100 -500 100 L 40 40 1 1 W 
+X V1 4 0 -200 100 R 40 40 1 1 P 
+X V2 5 0 -300 100 R 40 40 1 1 P 
+X VEX 6 0 -500 100 R 40 40 1 1 P 
+X VOUT 1 1100 0 100 L 40 40 1 1 P 
+S 100 100 1000 -600 1 1 0 f
+ENDDRAW
+ENDDEF
+#
+# End Library
