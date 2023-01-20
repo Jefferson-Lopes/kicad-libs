@@ -6,8 +6,6 @@ useful kicad components
 
 <table>
     <thead style='display:none;'>
-        <th>header 1</th>
-        <th>header 2</th>
     </thead>
     <tbody>
         <tr>
