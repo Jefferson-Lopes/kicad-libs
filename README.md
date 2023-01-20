@@ -183,7 +183,9 @@ useful kicad components
     </tbody>
 </table>
 
-## buck converter and barrel jack
+# Examples
+
+## Step down and jack
 
 ![power_supply](resources/power_supply_PCB_v1.0.png)
 
