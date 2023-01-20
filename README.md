@@ -8,12 +8,17 @@ useful kicad components
 |------------|------------------|--------|-----------|----------|
 | Connectors | JACK             | NO     | NO        | YES      |
 | Power      | Step Down LM2596 | YES    | YES       | YES      |
+| Power      | TP4056           | YES    | YES       | NO       |
+| Sensors    | BME280 module    | YES    | YES       | YES      |
 | Sensors    | MPX5700AP        | YES    | YES       | YES      |
 | Sensors    | MPX2010DP        | NO     | NO        | YES      |
 | Sensors    | MPX100DP         | NO     | YES       | NO       |
 | Sensors    | MPS20N0040D      | YES    | YES       | NO       |
 | Modules    | ADS1115          | YES    | YES       | YES      |
 | Modules    | MicroSD adapter  | YES    | YES       | YES      |
+| Modules    | L298N H Brigde   | YES    | YES       | YES      |
+| Modules    | Level Shifter    | YES    | YES       | NO       |
+| Modules    | RTC DS3231       | YES    | YES       | YES      |
 | Espressif  | ESP32 DevKit v1  | YES    | YES       | YES      |
 | Espressif  | ESP-01           | YES    | YES       | NO       |
 | Espressif  | ESP-03           | YES    | YES       | NO       |
@@ -67,10 +72,13 @@ useful kicad components
  ┃   ┣ 📜StepDown_LM2596
  ┃   ┗ 📜StepDown_LM2596_PinHeaders
  ┣ 📂footprints
+ ┃ ┣ 📂Battery_charger.pretty
+ ┃ ┃ ┗ 📜TP4056
  ┃ ┗ 📂StepDown.pretty
  ┃   ┗ 📜StepDown_LM2596
  ┗ 📂symbols
-   ┗ 📜StepDown_LM2596
+   ┣ 📜StepDown_LM2596
+   ┗ 📜TP4056
                 </pre>
             </td>
         </tr>
@@ -79,16 +87,21 @@ useful kicad components
                 <pre>
 📦sensors
  ┣ 📂3dmodels
+ ┃ ┣ 📂BME280.3dshapes
+ ┃ ┃ ┗ 📜BME280_module
  ┃ ┗ 📂MPX.3dshapes
  ┃   ┣ 📜MPX2010DP
  ┃   ┗ 📜MPX5700AP
  ┣ 📂footprints
+ ┃ ┣ 📂BME280.pretty
+ ┃ ┃ ┗ 📜BME280_module
  ┃ ┣ 📂MPS20N0040D.pretty
  ┃ ┃ ┗ 📜MPS20N0040D-module
  ┃ ┗ 📂MPX.pretty
  ┃   ┣ 📜MPX100DP
  ┃   ┗ 📜MPX5700AP
  ┗ 📂symbols
+   ┣ 📜BME280_module
    ┣ 📜MPS20N0040D-module
    ┗ 📜MPX5700AP
                 </pre>
@@ -99,6 +112,10 @@ useful kicad components
  ┣ 📂3dmodels
  ┃ ┣ 📂ADS1115.3dshapes
  ┃ ┃ ┗ 📜ADS1115
+ ┃ ┣ 📂H_Brigde.3dshapes
+ ┃ ┃ ┗ 📜L298N
+ ┃ ┣ 📂Real_Time_Clock.3dshapes
+ ┃ ┃ ┗ 📜RTC_DS3231
  ┃ ┗ 📂MicroSD.3dshapes
  ┃   ┣ 📜MicroSD-mini-pins
  ┃   ┣ 📜MicroSD-mini
@@ -106,10 +123,19 @@ useful kicad components
  ┣ 📂footprints
  ┃ ┣ 📂ADS1115.pretty
  ┃ ┃ ┗ 📜ADS1115
+ ┃ ┣ 📂H_Brigde.pretty
+ ┃ ┃ ┗ 📜Dual_L298N_H_Brigde
+ ┃ ┣ 📂Level_Shifter.pretty
+ ┃ ┃ ┗ 📜Level_Shifter
+ ┃ ┣ 📂Real_Time_Clock.pretty
+ ┃ ┃ ┗ 📜RTC_DS3231
  ┃ ┗ 📂MIcroSD.pretty
  ┃   ┗ 📜MicroSD
  ┗ 📂symbols
    ┣ 📜ADS1115
+   ┣ 📜dual_L298N_H_Brigde
+   ┣ 📜Level_shifter
+   ┣ 📜RTC_DS3231
    ┗ 📜MicroSD
                 </pre>
             </td>
