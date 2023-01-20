@@ -5,9 +5,14 @@ useful kicad components
 ## components
 
 <table>
-    <tr>
-        <td>
-            <pre>
+    <thead style='display:none;'>
+        <th>header 1</th>
+        <th>header 2</th>
+    </thead>
+    <tbody>
+        <tr>
+            <td>
+                <pre>
 📦connectors
 ┣ 📂3dmodels
 ┃ ┗ 📂JACK.3dshapes
@@ -28,10 +33,12 @@ useful kicad components
  ┃   ┗ 📜StepDown_LM2596
  ┗ 📂symbols
    ┗ 📜StepDown_LM2596
-            </pre>
-        </td>
-        <td>
-            <pre>
+                </pre>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <pre>
 📦sensors
  ┣ 📂3dmodels
  ┃ ┗ 📂MPX.3dshapes
@@ -46,12 +53,32 @@ useful kicad components
  ┗ 📂symbols
    ┣ 📜MPS20N0040D-module
    ┗ 📜MPX5700AP
-            </pre>
-        </td>
-    </tr>
-    <tr>
-        <td>
-            <pre>
+                </pre>
+            </td>
+            <td>
+                <pre>
+📦modules
+ ┣ 📂3dmodels
+ ┃ ┣ 📂ADS1115.3dshapes
+ ┃ ┃ ┗ 📜ADS1115
+ ┃ ┗ 📂MicroSD.3dshapes
+ ┃   ┣ 📜MicroSD-mini-pins
+ ┃   ┣ 📜MicroSD-mini
+ ┃   ┗ 📜MicroSD
+ ┣ 📂footprints
+ ┃ ┣ 📂ADS1115.pretty
+ ┃ ┃ ┗ 📜ADS1115
+ ┃ ┗ 📂MIcroSD.pretty
+ ┃   ┗ 📜MicroSD
+ ┗ 📂symbols
+   ┣ 📜ADS1115
+   ┗ 📜MicroSD
+                </pre>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <pre>
 📦espressif
  ┣ 📂3dmodels
  ┃ ┣ 📂ESP32-v1.3dshapes
@@ -112,29 +139,10 @@ useful kicad components
    ┣ 📜ESP32-DevKit-v1
    ┣ 📜ESP8266
    ┗ 📜Espressif
-            </pre>
-        </td>
-        <td>
-            <pre>
-📦modules
- ┣ 📂3dmodels
- ┃ ┣ 📂ADS1115.3dshapes
- ┃ ┃ ┗ 📜ADS1115
- ┃ ┗ 📂MicroSD.3dshapes
- ┃   ┣ 📜MicroSD-mini-pins
- ┃   ┣ 📜MicroSD-mini
- ┃   ┗ 📜MicroSD
- ┣ 📂footprints
- ┃ ┣ 📂ADS1115.pretty
- ┃ ┃ ┗ 📜ADS1115
- ┃ ┗ 📂MIcroSD.pretty
- ┃   ┗ 📜MicroSD
- ┗ 📂symbols
-   ┣ 📜ADS1115
-   ┗ 📜MicroSD
-            </pre>
-        </td>
-    </tr>
+                </pre>
+            </td>
+        </tr>
+    </tbody>
 </table>
 
 ## buck converter and barrel jack
