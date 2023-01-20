@@ -2,7 +2,47 @@
 
 useful kicad components
 
-## components
+## Components
+
+| Library    | Component        | Symbol | Footprint | 3D shape |
+|------------|------------------|--------|-----------|----------|
+| Connectors | JACK             | NO     | NO        | YES      |
+| Power      | Step Down LM2596 | YES    | YES       | YES      |
+| Sensors    | MPX5700AP        | YES    | YES       | YES      |
+| Sensors    | MPX2010DP        | NO     | NO        | YES      |
+| Sensors    | MPX100DP         | NO     | YES       | NO       |
+| Sensors    | MPS20N0040D      | YES    | YES       | NO       |
+| Modules    | ADS1115          | YES    | YES       | YES      |
+| Modules    | MicroSD adapter  | YES    | YES       | YES      |
+| Espressif  | ESP32 DevKit v1  | YES    | YES       | YES      |
+| Espressif  | ESP-01           | YES    | YES       | NO       |
+| Espressif  | ESP-03           | YES    | YES       | NO       |
+| Espressif  | ESP-06           | YES    | YES       | NO       |
+| Espressif  | ESP-07           | YES    | YES       | YES      |
+| Espressif  | ESP-12           | YES    | YES       | YES      |
+| Espressif  | ESP-13           | YES    | YES       | YES      |
+| Espressif  | ESP-201          | YES    | YES       | NO       |
+| Espressif  | NodeMCU v1       | YES    | YES       | YES      |
+| Espressif  | NodeMCU LoLin    | YES    | YES       | NO       |
+| Espressif  | ESP12F DevKit v3 | YES    | YES       | NO       |
+| Espressif  | ESP32-C3-MINI    | YES    | YES       | YES      |
+| Espressif  | ESP32-C3-WROOM   | YES    | YES       | YES      |
+| Espressif  | ESP32-DevKitC    | YES    | YES       | YES      |
+| Espressif  | ESP32-MINI       | YES    | YES       | YES      |
+| Espressif  | ESP32-PICO-MINI  | YES    | YES       | NO       |
+| Espressif  | ESP32-S2-DevKitM | YES    | YES       | NO       |
+| Espressif  | ESP32-S2-MINI    | YES    | YES       | YES      |
+| Espressif  | ESP32-S2-SOLO    | YES    | YES       | NO       |
+| Espressif  | ESP32-S2-Saola   | YES    | YES       | NO       |
+| Espressif  | ESP32-S2-WROOM   | YES    | YES       | YES      |
+| Espressif  | ESP32-S2-WROVER  | YES    | YES       | YES      |
+| Espressif  | ESP32-S3-DevKitC | YES    | YES       | NO       |
+| Espressif  | ESP32-S3-MINI    | YES    | YES       | YES      |
+| Espressif  | ESP32-S3-WROOM   | YES    | YES       | YES      |
+| Espressif  | ESP32-WROOM      | YES    | YES       | YES      |
+| Espressif  | ESP32-WROVER     | YES    | YES       | YES      |
+
+## Structure
 
 <table>
     <thead style='display:none;'>
