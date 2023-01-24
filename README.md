@@ -7,6 +7,7 @@ useful kicad components
 | Library    | Component        | Symbol | Footprint | 3D shape |
 |------------|------------------|--------|-----------|----------|
 | Connectors | JACK             | NO     | NO        | YES      |
+| Connectors | JACK TRS 3.5mm   | NO     | NO        | YES      |
 | Power      | Step Down LM2596 | YES    | YES       | YES      |
 | Power      | TP4056           | YES    | YES       | NO       |
 | Sensors    | BME280 module    | YES    | YES       | YES      |
@@ -58,6 +59,8 @@ useful kicad components
                 <pre>
 📦connectors
 ┣ 📂3dmodels
+┃ ┣ 📂JACK_TRS_3_5mm.3dshapes
+┃ ┃ ┗ 📜JACK_TRS_3_5mm
 ┃ ┗ 📂JACK.3dshapes
 ┃   ┗ 📜JACK_PTH
 ┣ 📂footprints
