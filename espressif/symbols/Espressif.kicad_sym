@@ -781,7 +781,7 @@
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "14" (effects (font (size 1.27 1.27))))
       )
-      (pin power_in line (at 2.54 27.305 270) (length 2.54)
+      (pin power_in line (at 2.54 27.94 270) (length 2.54)
         (name "5V" (effects (font (size 1.27 1.27))))
         (number "19" (effects (font (size 1.27 1.27))))
       )
